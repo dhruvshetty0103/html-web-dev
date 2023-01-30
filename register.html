@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- So here we are winding up basic html tags here and I don't why this was called advanced html-->
+    <form method="GET">
+      <!-- here we have used POST method to attach this whole form entry details to response body where as GET shows the datails in the url itself -->
+      First Name:<input type="text" name="firstName" /><br />
+      Last Name:<input type="text" name="lastName" /><br />
+      Email:<input type="email" required name="email" /><br />
+      Password: <input type="password" min="8" name="password" /><br />
+      Birthday: <input type="date" name="birthday" /><br />
+      Gender: <br />
+      <input type="radio" name="gender" value="male" />Male<br />
+      <input type="radio" name="gender" value="female" />Female<br />
+      <input type="radio" name="gender" value="others" />Other<br />
+
+      Pets: <br />
+      <input type="checkbox" name="cats" />Cats<br />
+      <input type="checkbox" name="dogs" />Dogs<br />
+
+      Cars: <br />
+      <select name="cars" id="">
+        <option value="volvo" name="volvo">Volvo</option>
+        <option value="audi" name="audi">Audi</option></select
+      ><br />
+      <input type="submit" value="Register" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
